@@ -44,12 +44,12 @@ Hyphenation patterns for Estonian in T1/EC and UTF-8 encodings.
 %install
 mkdir -p %{buildroot}%{_texmf_language_dat_d}
 cat > %{buildroot}%{_texmf_language_dat_d}/hyphen-estonian <<EOF
-%% from hyphen-estonian:
+\%\% from hyphen-estonian:
 estonian loadhyph-et.tex
 EOF
 mkdir -p %{buildroot}%{_texmf_language_def_d}
 cat > %{buildroot}%{_texmf_language_def_d}/hyphen-estonian <<EOF
-%% from hyphen-estonian:
+\%\% from hyphen-estonian:
 \addlanguage{estonian}{loadhyph-et.tex}{}{2}{3}
 EOF
 mkdir -p %{buildroot}%{_texmf_language_lua_d}
