@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-hyphen-estonian
 Version:	20120124
-Release:	8
+Release:	9
 Summary:	Estonian hyphenation patterns
 Group:		Publishing
 URL:		http://tug.org/texlive
